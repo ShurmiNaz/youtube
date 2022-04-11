@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <style>
+          .div-1 {
+               background-color: aquamarine;
+               height: 50px;
+               width: 50px;
+
+          }
+
+          .div-2 {
+               background-color: rgb(255, 229, 127);
+               height: 50px;
+               width: 50px;
+          }
+     </style>
+
+</head>
+
+<body style="height: 1500px;">
+     <div>
+          <div style=" background-color: rgb(202, 36, 36);height: 50px;
+          width:50px; color: white;"> text-fixd</div>
+          <div class="div-2"> text - 2</div>
+          <div class="div-1">text-3</div>
+          <div class="div-2">text-4</div>
+     </div>
+
+     <br><br>
+     <hr>
+     <div style="position: relative;">
+          <div style="width: 400px; height: 50px; background-color: chartreuse;  z-index: 12; position: sticky;"> text-1
+          </div>
+          <div class="div-2"> text - 2</div>
+          <div style="" class="div-1">text-3</div>
+          <div class="div-2">text-4</div>
+     </div>
+     <br>
+     <hr>
+     <div>
+          <div style=" background-color: rgb(100, 36, 202);height: 50px;
+          width:50px; color: white;"> text-fixd</div>
+          <div class="div-2"> text - 2</div>
+          <div style="position: fixed;" class="div-1">text-3</div>
+          <div class="div-2">text-4</div>
+     </div>
+</body>
+
+</html>
